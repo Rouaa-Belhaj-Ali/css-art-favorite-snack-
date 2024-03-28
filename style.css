@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent overflow of potato chips animation */
+    background: linear-gradient(to bottom, #FDD835 1px, transparent 1px), /* Create potato chips */
+                linear-gradient(to bottom, #FDD835 1px, transparent 1px); /* Add more layers for variety */
+                background-image: url('fries.gif');
+    background: cover;/* Adjust the size of potato chips */
+    animation: chipsFalling 20s linear infinite; /* Apply animation to potato chips */
+}
+
+
+
+
+
+.container {
+
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.title {
+    color: red; /* Change title color to white */
+    font-family: 'Comic Sans MS', cursive; /* Funky font */
+    font-size: 2.5em;
+    margin-bottom: 30px; /* Space below the title */
+    opacity: 0; /* Start with the title fully transparent */
+    animation: fadeInOut 3s infinite; /* Apply the fade-in, fade-out animation */
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+.fries-container {
+    display: inline-block;
+}
+
+.fries {
+    width: 550px; /* Adjust the width of the fries image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 150%; /* Apply border-radius to make it round */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+}
+@keyframes chipsFalling {
+    0% {
+        background-position: 0 0, 0 0; /* Start position of potato chips */
+    }
+    100% {
+        background-position: 0 100%, 0 200%; /* End position of potato chips */
+    }
+}
