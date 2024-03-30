@@ -18,11 +18,5 @@ I'm excited to present my CSS art project that vividly brings the simple yet bel
 ## Journey
 I initially felt I hadn't explored CSS as much as I could have, especially after shifting my focus towards backend languages. This challenge presented a fantastic opportunity to dive back into the world of CSS, allowing me to truly appreciate its elegance and capabilities.
 
-<!-- Team Submissions: Please pick one member to publish the submission and credit teammates by listing their DEV usernames directly in the body of the post.
-<!-- We encourage you to consider addi
-Future Snack Flavors
 
-The only constant in this repository is change. Stay tuned as the project morphs to reflect new snack favorites, promising a fresh palette of designs, animations, and interactive experiences with each update.
-
----
-
+![Cap](https://github.com/Rouaa-Belhaj-Ali/css-art-favorite-snack-/assets/68033931/74124f15-b474-46de-b5b3-7b6f6d27beff)
